@@ -6,29 +6,30 @@
         <meta name="author" content="Chicago Chang">
         <meta name="description" content="歡迎來到html的世界">
         <link rel="shortcut icon" href="web_icon.ico" type="image/x-icon">
-        <link rel="stylesheet" tpye="text/css" href="styles/styles.css">
+        <link rel="stylesheet" tpye="text/css" href="styles\styles.css">
+        <noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
     </head>
     <body>
         <div id="wrapper">
-
-            
-            <div id="header"><div id="welcome">歡迎來到html的世界</div></div>
-            
-            <div id="nav">
-                <ul>
-                    <li><a href="#block1">課前提問</a></li>
-                    <li>網頁基本架構</li>
-                    <li>如何查看網頁原始碼？</li>
-                    <li>html元素</li>
-                    <li>元素屬性</li>
-                    <li>圖片</li>
-                    <li>超連結</li>
-                    <li>影片</li>
-                    <li>輸入文字</li>
-                </ul>
-            </div>
-
-            <div id="block1"></div>
+            <section id="sidebar">
+				<div class="inner">
+                    <div class="colorchange">
+                        <nav>
+                            <ul>
+                                <li><h2>歡迎來到<br/>html的世界</h2></li>
+                                <li><a href="#">頁首</a></li>
+                                <li><a href="#1">基本架構</a></li>
+                                <li><a href="#2">查看網頁原始碼</a></li>
+                                <li><a href="#3">html元素與元素屬性</a></li>
+                                <li><a href="#4">圖片</a></li>
+                                <li><a href="#5">超連結</a></li>
+                                <li><a href="#6">影片</a></li>
+                                <li><a href="#7">輸入文字</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+				</div>
+			</section>
 
             
             <div id="article">
@@ -46,6 +47,7 @@
                 
             
                 <div class="content">
+                    <div id="1"></div>
                     <h3>網頁基本架構</h3>
                     <img src="imgs/html-css-js.jpg"
                         alt="A picture to explain the difference between html, CSS and javascript"
@@ -56,6 +58,7 @@
                 
                 
                 <div class="content">
+                    <div id="2"></div>
                     <h3>如何查看網頁原始碼？</h3>
                     <div id="list 2">
                         <ul>
@@ -71,6 +74,7 @@
                     
 
                 <div class="content">
+                    <div id="3"></div>
                     <h3>html元素</h3>
                     <img src="imgs/html-element.png"
                         alt=""
@@ -104,6 +108,7 @@
                 </div>
                 
                 <div class="content">
+                    <div id="4"></div>
                     <h3>圖片</h3>
                     <p>
                         <ol>
@@ -116,6 +121,7 @@
                 
                 
                 <div class="content">
+                    <div id="5"></div>
                     <h3>超連結</h3>
                     <p>
                         <a href="https://www.instagram.com/sc_wlsh.1203/"
@@ -128,12 +134,14 @@
                 
 
                 <div class="content">
+                    <div id="6"></div>
                     <h3>影片</h3>
                     <p>在youtube中複製嵌入程式碼並貼上。(對影片點右鍵後，點選「複製嵌入程式碼」)</p>
                     <iframe width="684" height="385" src="https://www.youtube.com/embed/7VFTcmGRM-k" title="用生命在拍英文報告" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </div>
                 
                 <div class="content">
+                    <div id="7"></div>
                     <h3>輸入文字</h3>
                     <p>更改<span lang="en-us">input</span>元素的屬性!</p>
                     請輸入帳號：<input type="text"><br>
